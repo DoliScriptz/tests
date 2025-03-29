@@ -1,0 +1,45 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+Name = "MM2 TRADE SCAM",
+Icon = 0,
+LoadingTitle = "Trade Scam",
+LoadingSubtitle = "by Makal Scripts",
+Theme = "Default",
+DisableRayfieldPrompts = false,
+DisableBuildWarnings = false,
+ConfigurationSaving = {
+Enabled = true,
+FolderName = nil,
+FileName = "Trade Scamming"
+}
+})
+
+local Tab = Window:CreateTab("Trade Scam", 4483362458)
+
+local Section = Tab:CreateSection("Trade")
+Rayfield:Notify({
+Title = "ATTENTION!",
+Content = "WAIT 10 MINUTES BEFORE USE!!",
+Duration = 6.5,
+Image = 4483362458,
+})
+
+local Toggle = Tab:CreateToggle({
+Name = "Start Trade",
+CurrentValue = false,
+Flag = "Toggle1",
+Callback = function() end
+})
+
+local Button = Tab:CreateButton({
+Name = "Freeze Trade",
+Callback = function() end
+})
+
+local Button = Tab:CreateButton({
+Name = "Force Accept",
+Callback = function() end
+})
+
+local Paragraph = Tab:CreateParagraph({Title = "ATTENTION", Content = "ONLY WORKS WITH GODLYS,VINTAGE,ANCIENT,CHROMAS,UNIQUES!!"})
