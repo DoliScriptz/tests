@@ -330,7 +330,7 @@ local InfoSection = InfoTab:AddSection({
 
 InfoTab:AddParagraph("Alt Account Warning! Ã¢Å¡ Ã¯Â¸Â", "If You Are Using An Alt Account/Another Account Besdies Your Main, All Of The Exploits Will Not Work! This Will Only Work On Your Main Account Because The .SetVariables Are Stored On Your Main Account!")
 
-InfoTab:AddParagraph("MM2 Dupe Status! Ã°Å¸â€º Ã¯Â¸Â", "The MM2 Dupe Is Currenty 100% Working. If You Find Any Errors/Bugs, Please Report Them To 'k4f7' On Discord!")
+InfoTab:AddParagraph("MM2 Dupe Status! Ã°Å¸â€º Ã¯Â¸Â", "The MM2 Dupe Is Currenty 100% Working. If You Find Any Errors/Bugs, Please Report Them To '1hatsuneeee' On Discord!")
 
 InfoTab:AddLabel("Script Hub Made By Makal Script!Ã°Å¸â€™Â§")
 
